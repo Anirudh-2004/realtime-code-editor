@@ -1,9 +1,11 @@
 .homePageWrapper {
+    background: #1c1e29; /* Add this line */
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     height: 100vh;
+    
 }
 
 .formWrapper {
