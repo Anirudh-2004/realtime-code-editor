@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
     const navigate = useNavigate();
-
     const [roomId, setRoomId] = useState('');
     const [username, setUsername] = useState('');
     const createNewRoom = (e) => {
@@ -67,10 +66,10 @@ const Home = () => {
                         If you don't have an invite then create &nbsp;
                         <a
                             onClick={createNewRoom}
-                            href="" className="createNewBtn" >
+                            href="" className="createNewBtn">
                             new room
                         </a>
-                    </span>
+                    </span> 
                 </div>
             </div>
             <footer>
